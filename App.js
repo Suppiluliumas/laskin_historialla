@@ -33,6 +33,7 @@ export default function App() {
     if (sign !== "") {
       setData([...data, { text1, sign, text2, result }]);
     }
+    setSign("");
   };
   console.log(data);
   return (
